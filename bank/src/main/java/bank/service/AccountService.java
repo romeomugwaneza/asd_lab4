@@ -6,8 +6,8 @@ import bank.dao.AccountDAO;
 import bank.dao.IAccountDAO;
 import bank.domain.Account;
 import bank.domain.Customer;
-import bank.integration.CreateAccountSubject;
-import bank.integration.UpdateAccountSubject;
+import bank.subject.CreateAccountSubject;
+import bank.subject.UpdateAccountSubject;
 
 
 public class AccountService extends UpdateAccountSubject implements IAccountService {
